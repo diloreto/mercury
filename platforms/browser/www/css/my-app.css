@@ -1,0 +1,39 @@
+/***** CUSTOM ICONS *******/
+i.icon.icon-shoppingbag-ios{
+  width: 29px;
+  height: 29px;
+  background-image: url("../img/i-form-shoppingbag-ios.png");
+}
+i.icon.icon-barcode-ios{
+  width: 29px;
+  height: 29px;
+  background-image: url("../img/i-form-barcode-ios.png");
+}
+i.icon.icon-try-ios{
+  width: 29px;
+  height: 29px;
+  background-image: url("../img/i-form-try-ios.png");
+}
+i.icon.icon-buy-ios{
+  width: 29px;
+  height: 29px;
+  background-image: url("../img/i-form-buy-ios.png");
+}
+i.icon.icon-share-ios{
+  width: 29px;
+  height: 29px;
+  background-image: url("../img/i-form-share-ios.png");
+}
+i.icon.icon-compare-ios{
+  width: 29px;
+  height: 29px;
+  background-image: url("../img/i-form-compare-ios.png");
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+.hidden-none{
+	display:none;
+}
