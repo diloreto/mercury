@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="css/my-app.css">
     <!-- Toast by Timo -->
     <link rel="stylesheet" href="css/toast.css">
+ 
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+
+   
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/preload2.js"></script>
   </head>
   <body>
   
@@ -56,7 +63,11 @@
             
             <div class="content-block">
                 <div class="row buttons-row">
-                  <div class="col-100"><a href="#" class="button button-big button-fill color-red">Buy</a></div>
+                  <div class="col-100"><a href="#" class="button button-big button-fill color-red"><i class="icon icon-try-ios"></i> Try</a></div>
+                </div>
+                <br />
+                <div class="row buttons-row">
+                  <div class="col-100"><a href="#" class="button button-big button-fill color-red"><i class="icon icon-buy-ios"></i> Buy</a></div>
                 </div>
            </div>
             
@@ -77,7 +88,7 @@
           <div class="navbar-inner">
             <!-- We have home navbar without left link-->
             <div class="left"><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a></div>
-            <div class="center sliding">Mercury by Migliore Technologies</div>
+            <div class="center sliding">Mercury 1.0.0</div>
             <div class="right">
               <a href="#" data-panel="right" class="link icon-only open-panel">
               	<i class="icon icon-shoppingbag-ios">
@@ -93,14 +104,16 @@
         
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
         <div class="pages navbar-through toolbar-through">
+          
           <!-- Page, data-page contains page name-->
           <div data-page="index" class="page">
+            
             <!-- Scrollable page content-->
             <div class="page-content">
               <div class="content-block-title">Scan an Item to Preview</div>
               <div class="content-block">
                 <div class="content-block-inner">
-                  <p><img src="img/default/white_tshirt.jpg" alt="default shirt"></p>
+                  <p><img id="itemDisplayImage" src="img/default/white_tshirt.jpg" alt="default shirt"></p>
                 </div>
               </div>
               
@@ -142,18 +155,9 @@
               
               <!--<div class="content-block-title">App Buttons</div>-->
               <div class="content-block hidden-none" id="blkButtons">
-              
-                <div class="row buttons-row">
-                  <div class="col-50"><a href="#" class="button button-big button-fill color-red"><i class="icon icon-try-ios"></i>  Try</a></div>
-                  <div class="col-50">
-                    <a href="#" class="button button-big button-fill color-blue"><i class="icon icon-share-ios"></i>  Share</a>
-                  </div>
-                </div>
-                
-                <br />
                 
                 <div class="row buttons-row">
-                  <div class="col-50"><a href="#" class="button button-big button-fill color-red"><i class="icon icon-buy-ios"></i>  Buy</a></div>
+                  <div class="col-50"><a href="#" class="button button-big button-fill color-blue"><i class="icon icon-share-ios"></i>  Share</a></div>
                   <div class="col-50">
                     <a href="#" class="button button-big button-fill color-blue"><i class="icon icon-compare-ios"></i>  Compare</a>
                   </div>
@@ -176,26 +180,30 @@
         
         
         <!-- Bottom Toolbar-->
-        <div class="toolbar">
-          <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
-        </div>
-        
+        <div class="toolbar tabbar">
+            <div class="toolbar-inner">
+                <a href="#tab1" class="tab-link active">
+                    <i class="icon icon-back"></i>
+                </a>
+                <a href="#tab2" class="tab-link">
+                    <i class="icon icon-bars"></i>
+                </a>
+                <a href="#tab3" class="tab-link">
+                    <i class="icon icon-bars"></i>
+                </a>
+                <a href="#tab4" class="tab-link">
+                    <i class="icon icon-next"></i>
+                </a>
+            </div>
+        </div>        
         
       </div> <!-- End of: <div class="view view-main"> -->
     </div> <!-- End of: <div class="views"> -->
-    
-    
-    <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="js/framework7.min.js"></script>
-    
+   
     <!-- Path to Toast-->
     <script type="text/javascript" src="js/toast.js"></script>
     
-    <!-- Path to your barcode-scanner-->
-    <!-- <script type="text/javascript" src="../phonegap-plugin-barcodescanner/www/barcodescanner.js"></script>   -->
-    
     <!-- Path to your app js-->
     <script type="text/javascript" src="js/my-app.js"></script>
-    
   </body>
 </html>
