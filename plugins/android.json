@@ -1,0 +1,83 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "mercury-1336",
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        }
+    }
+}

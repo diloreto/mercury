@@ -1,4 +1,19 @@
 /***** CUSTOM ICONS *******/
+.active:hover{
+	cursor:pointer;
+}
+.inactive{
+	color:#000;
+}
+.bottom i{
+	font-size:28px;
+}
+.navbar-inner i{
+	font-size:26px;
+}
+#product-image{
+	text-align:center;	
+}
 i.icon.icon-shoppingbag-ios{
   width: 29px;
   height: 29px;
@@ -42,4 +57,21 @@ i.icon.icon-compare-ios{
    max-height: 100%;
    max-width: 100%;
    width: auto;
+}
+.content-window-text {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #6d6d72;
+  margin: 5px 15px 10px;
+}
+
+/* Reduce the bottom margin of the preview pane to bring the instructions up */
+#divPreviewPane{
+	margin-bottom:15px;
 }

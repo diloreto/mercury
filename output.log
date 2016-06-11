@@ -1,0 +1,412 @@
+[36m[phonegap][39m executing 'cordova build android'...
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-36-ldpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-48-mdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-72-hdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-96-xhdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-144-xxhdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-192-xxxhdpi.png
+
+
+Discovered plugin "com.phonegap.plugins.barcodescanner" in config.xml. Installing to the project
+
+
+Found phonegap-plugin-barcodescanner is already fetched. Skipped fetching com.phonegap.plugins.barcodescanner
+
+
+Plugin "phonegap-plugin-barcodescanner" already installed on android.
+
+Plugin "phonegap-plugin-barcodescanner" already installed on browser.
+
+
+Plugin "phonegap-plugin-barcodescanner" already installed on ios.
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-36-ldpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-48-mdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-72-hdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-96-xhdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-144-xxhdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/android/icon-192-xxxhdpi.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-60.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-60@2x.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-60@3x.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-76.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-76@2x.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-small.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-small@2x.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-small@3x.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon@2x.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-72.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/icon/ios/icon-72@2x.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default~iphone.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default@2x~iphone.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default-Portrait~ipad.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default-Portrait@2x~ipad.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default-Landscape~ipad.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default-Landscape@2x~ipad.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default-568h@2x~iphone.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default-667h.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default-736h.png
+
+
+cp: no such file or directory: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/www/res/screens/ios/Default-Landscape-736h.png
+
+
+ANDROID_HOME=/Users/tonydiloreto/Library/Android/sdk
+
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home
+
+:preBuild
+ 
+UP-TO-DATE
+
+:preDebugBuild
+ 
+UP-TO-DATE
+
+:checkDebugManifest
+
+
+:CordovaLib:preBuild
+ 
+UP-TO-DATE
+
+:CordovaLib:preDebugBuild
+ 
+UP-TO-DATE
+
+:CordovaLib:compileDebugNdk
+ 
+UP-TO-DATE
+
+:CordovaLib:compileLint
+
+
+:CordovaLib:copyDebugLint 
+UP-TO-DATE
+
+:CordovaLib:mergeDebugProguardFiles
+ UP-TO-DATE
+
+:CordovaLib:packageDebugRenderscript
+ UP-TO-DATE
+
+:CordovaLib:checkDebugManifest
+
+
+:CordovaLib:prepareDebugDependencies
+
+
+:CordovaLib:compileDebugRenderscript
+ 
+UP-TO-DATE
+
+:CordovaLib:generateDebugResValues
+ 
+UP-TO-DATE
+
+:CordovaLib:generateDebugResources
+ 
+UP-TO-DATE
+
+:CordovaLib:packageDebugResources
+ 
+UP-TO-DATE
+
+:CordovaLib:compileDebugAidl
+ 
+UP-TO-DATE
+
+:CordovaLib:generateDebugBuildConfig
+ 
+UP-TO-DATE
+
+:CordovaLib:generateDebugAssets
+ 
+UP-TO-DATE
+
+:CordovaLib:mergeDebugAssets
+ 
+UP-TO-DATE
+
+:CordovaLib:processDebugManifest
+ 
+UP-TO-DATE
+
+:CordovaLib:processDebugResources
+ 
+UP-TO-DATE
+
+:CordovaLib:generateDebugSources
+ 
+UP-TO-DATE
+
+
+:CordovaLib:compileDebugJavaWithJavac
+ 
+UP-TO-DATE
+
+:CordovaLib:processDebugJavaRes
+ UP-TO-DATE
+
+:CordovaLib:transformResourcesWithMergeJavaResForDebug
+ 
+UP-TO-DATE
+
+:CordovaLib:transformClassesAndResourcesWithSyncLibJarsForDebug
+ 
+UP-TO-DATE
+
+:CordovaLib:mergeDebugJniLibFolders
+ 
+UP-TO-DATE
+
+:CordovaLib:transformNative_libsWithMergeJniLibsForDebug
+ UP-TO-DATE
+:CordovaLib:transformNative_libsWithSyncJniLibsForDebug
+ UP-TO-DATE
+:CordovaLib:bundleDebug
+ UP-TO-DATE
+:prepareAndroidCordovaLibUnspecifiedDebugLibrary
+ UP-TO-DATE
+:preReleaseBuild UP-TO-DATE
+:CordovaLib:preReleaseBuild UP-TO-DATE
+:CordovaLib:compileReleaseNdk UP-TO-DATE
+
+:CordovaLib:copyReleaseLint UP-TO-DATE
+:CordovaLib:mergeReleaseProguardFiles UP-TO-DATE
+:CordovaLib:packageReleaseRenderscript
+ UP-TO-DATE
+:CordovaLib:checkReleaseManifest
+
+:CordovaLib:prepareReleaseDependencies
+:CordovaLib:compileReleaseRenderscript
+ UP-TO-DATE
+
+:CordovaLib:generateReleaseResValues UP-TO-DATE
+:CordovaLib:generateReleaseResources UP-TO-DATE
+:CordovaLib:packageReleaseResources
+ UP-TO-DATE
+:CordovaLib:compileReleaseAidl
+ UP-TO-DATE
+
+:CordovaLib:generateReleaseBuildConfig
+ UP-TO-DATE
+:CordovaLib:generateReleaseAssets UP-TO-DATE
+:CordovaLib:mergeReleaseAssets
+ UP-TO-DATE
+:CordovaLib:processReleaseManifest
+ UP-TO-DATE
+:CordovaLib:processReleaseResources
+ UP-TO-DATE
+:CordovaLib:generateReleaseSources UP-TO-DATE
+:CordovaLib:compileReleaseJavaWithJavac
+ UP-TO-DATE
+
+:CordovaLib:processReleaseJavaRes
+ 
+UP-TO-DATE
+
+:CordovaLib:transformResourcesWithMergeJavaResForRelease
+ 
+UP-TO-DATE
+
+:CordovaLib:transformClassesAndResourcesWithSyncLibJarsForRelease
+ 
+UP-TO-DATE
+:CordovaLib:mergeReleaseJniLibFolders
+ 
+UP-TO-DATE
+
+:CordovaLib:transformNative_libsWithMergeJniLibsForRelease
+ 
+UP-TO-DATE
+
+:CordovaLib:transformNative_libsWithSyncJniLibsForRelease
+ UP-TO-DATE
+
+:CordovaLib:bundleRelease
+ 
+UP-TO-DATE
+
+:prepareBarcodescannerLibrary
+ 
+UP-TO-DATE
+
+:prepareComAndroidSupportSupportV132340Library
+ 
+UP-TO-DATE
+
+:prepareComAndroidSupportSupportV42340Library
+ UP-TO-DATE
+
+:prepareComGoogleAndroidGmsPlayServicesBase902Library
+ 
+UP-TO-DATE
+
+:prepareComGoogleAndroidGmsPlayServicesBasement902Library
+ 
+UP-TO-DATE
+
+:prepareComGoogleAndroidGmsPlayServicesGcm902Library
+ 
+UP-TO-DATE
+
+:prepareComGoogleAndroidGmsPlayServicesIid902Library
+ 
+UP-TO-DATE
+
+:prepareComGoogleAndroidGmsPlayServicesTasks902Library
+ 
+UP-TO-DATE
+
+:prepareComGoogleFirebaseFirebaseCommon902Library
+ UP-TO-DATE
+
+
+:prepareMeLeolinShortcutBadger114Library
+ 
+UP-TO-DATE
+
+:prepareDebugDependencies
+
+
+:compileDebugAidl
+ 
+UP-TO-DATE
+
+:compileDebugRenderscript
+ 
+UP-TO-DATE
+
+:generateDebugBuildConfig
+ 
+UP-TO-DATE
+
+:generateDebugAssets
+ 
+UP-TO-DATE
+
+:mergeDebugAssets
+ 
+UP-TO-DATE
+
+:generateDebugResValues
+ 
+UP-TO-DATE
+
+:generateDebugResources
+ 
+UP-TO-DATE
+
+:mergeDebugResources
+ UP-TO-DATE
+
+
+:processDebugManifest
+ 
+UP-TO-DATE
+
+:processDebugResources
+/Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:65:23-37 : AAPT: No resource found that matches the given name (at 'icon' with value '@drawable/icon').
+
+
+
+ FAILED
+
+
+
+FAILURE: 
+Build failed with an exception.
+
+
+
+* What went wrong:
+
+Execution failed for task ':processDebugResources'.
+
+> 
+com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/Users/tonydiloreto/Library/Android/sdk/build-tools/23.0.3/aapt'' finished with non-zero exit value 1
+
+
+
+* Try:
+
+Run with 
+--stacktrace option to get the stack trace. Run with --info
+ or --debug option to get more log output.
+
+
+
+BUILD FAILED
+
+
+
+
+Total time: 2.861 secs
+
+Error: Error code 1 for command: /Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/platforms/android/gradlew with args: cdvBuildDebug,-b,/Users/tonydiloreto/Documents/Phonegap Projects/Mercury2/platforms/android/build.gradle,-Dorg.gradle.daemon=true,-Pandroid.useDeprecatedNdk=true
+
+

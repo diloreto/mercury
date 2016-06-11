@@ -12,6 +12,13 @@
         },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "mercury-1336",
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
         }
     },
     "dependent_plugins": {}
