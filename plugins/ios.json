@@ -75,5 +75,9 @@
             "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.miglioretechnologies.apps.mercury"
+        }
+    }
 }
