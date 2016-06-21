@@ -21,24 +21,47 @@ var mySwiper;
 
 
 function scanItem(){
-	
+		
 	var item_sku = null;
 	
 	var camOpt = {
+          "preferFrontCamera" : false, // iOS and Android
+          "showFlipCameraButton" : false, // iOS and Android
+          "prompt" : "Place a barcode inside the scan area", // supported on Android only
+          "orientation" : "portrait" // Android only (portrait|landscape), default unset so it rotates with the device
+      };
+	  
+	  cordova.plugins.barcodeScanner.scan(
+      function (result) {
+          alert("We got a barcode\n" +
+                "Result: " + result.text + "\n" +
+                "Format: " + result.format + "\n" +
+                "Cancelled: " + result.cancelled);
+      }, 
+      function (error) {
+          alert("Scanning failed: " + error);
+      },
+      {
           "preferFrontCamera" : true, // iOS and Android
           "showFlipCameraButton" : true, // iOS and Android
           "prompt" : "Place a barcode inside the scan area", // supported on Android only
           "formats" : "QR_CODE,PDF_417", // default: all but PDF_417 and RSS_EXPANDED
           "orientation" : "landscape" // Android only (portrait|landscape), default unset so it rotates with the device
-      };
+      }
+   );
 
-	cordova.plugins.barcodeScanner.scan(
-	  function (result) {
+
+/*
+	cordova.plugins.barcodeScanner.scan(function (result) {
+		console.log(result);
+		  
 		if(!result.cancelled)
 		{
-		  alert("Barcode type is: " + result.format);
-		  alert("Decoded text is: " + result.text);
-		  item_sku = result.text;
+			// Vibrate to signal success
+		  	navigator.vibrate(2000);
+		  	alert("Barcode type is: " + result.format);
+		  	alert("Decoded text is: " + result.text);
+		  	item_sku = result.text;
 		}
 		else
 		{
@@ -50,6 +73,8 @@ function scanItem(){
 	  },
 	  camOpt
 	);
+	
+	*/
 			
 	if( item_sku ){
 	
@@ -96,34 +121,3 @@ var context = {
 };
 template.html(compiledTemplate(context));
 */
-
-
-function camSuc(data){
-	console.log(data);	
-}
-
-function camErr(data){
-	console.log("picture didn't work");	
-}
-
-function geoSuc(data){
-	var geodata = data.coords;
-	console.log("-- setting geodata --");
-	console.log( JSON.stringify(geodata) );
-	localStorage.setItem("geoData", JSON.stringify(geodata) );
-	// Use this to detect if within the store coordinates
-	// and if so, download store database to local storage
-}
-
-function geoErr(data){
-	// alert("Error getting location data");
-}
-
-function lclStorage(){
-	if(localStorage.getItem("LocalData") === null)
-	{
-		var data = [];
-		data = JSON.stringify(data);
-		localStorage.setItem("LocalData", data);
-	}	
-}

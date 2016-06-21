@@ -65,6 +65,56 @@ module.exports = [
         "clobbers": [
             "PushNotification"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+        "id": "cordova-plugin-vibration.notification",
+        "pluginId": "cordova-plugin-vibration",
+        "merges": [
+            "navigator.notification",
+            "navigator"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-vibration/src/browser/Vibration.js",
+        "id": "cordova-plugin-vibration.Vibration",
+        "pluginId": "cordova-plugin-vibration",
+        "merges": [
+            "navigator.notification",
+            "navigator"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "id": "cordova-plugin-statusbar.statusbar",
+        "pluginId": "cordova-plugin-statusbar",
+        "clobbers": [
+            "window.StatusBar"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-statusbar/src/browser/statusbar.js",
+        "id": "cordova-plugin-statusbar.statusbar.Browser",
+        "pluginId": "cordova-plugin-statusbar",
+        "merges": [
+            "window.StatusBar"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-dialogs/www/notification.js",
+        "id": "cordova-plugin-dialogs.notification",
+        "pluginId": "cordova-plugin-dialogs",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-dialogs/www/browser/notification.js",
+        "id": "cordova-plugin-dialogs.notification_browser",
+        "pluginId": "cordova-plugin-dialogs",
+        "merges": [
+            "navigator.notification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -73,7 +123,10 @@ module.exports.metadata =
     "phonegap-plugin-barcodescanner": "5.0.0",
     "cordova-plugin-device": "1.1.2",
     "cordova-plugin-camera": "2.1.1",
-    "phonegap-plugin-push": "1.7.0"
+    "phonegap-plugin-push": "1.7.0",
+    "cordova-plugin-vibration": "2.1.1",
+    "cordova-plugin-statusbar": "2.1.3",
+    "cordova-plugin-dialogs": "1.2.1"
 }
 // BOTTOM OF METADATA
 });

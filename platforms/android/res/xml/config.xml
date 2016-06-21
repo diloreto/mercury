@@ -83,10 +83,30 @@
         MigTech Team
     </author>
     <content src="index.html" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="Orientation" value="portrait" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="TopActivityIndicator" value="white" />
+    <preference name="SuppressesIncrementalRendering" value="true" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="UIWebViewDecelerationSpeed" value="fast" />
+    <preference name="ErrorUrl" value="myErrorPage.html" />
+    <preference name="target-device" value="handset" />
+    <preference name="deployment-target" value="7.0" />
+    <preference name="CordovaWebViewEngine" value="CDVUIWebViewEngine" />
+    <preference name="SuppressesLongPressGesture" value="true" />
+    <preference name="Suppresses3DTouchGesture" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-build-tool" value="gradle" />
     <icon src="icon.png" />
+    <preference name="SplashScreenDelay" value="2000" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

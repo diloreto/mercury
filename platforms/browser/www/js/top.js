@@ -7,7 +7,7 @@
 /// Put all application logic in here
 (function(){
 	
-	var myApp = new Framework7();
+	// var myApp = new Framework7();
 	
 	// Export selectors engine
 	var $$ = Dom7;
@@ -32,19 +32,20 @@
 		setupPush();
 		
 		$$("#btnScan").on('click', scanItem );
-	
-		
+			
 		// plugin here
 		console.log("-- device ready --");
 	}
 	
 	
 	function onPause(){
-	  // TODO: This application has entered its paused state	
+	  // TODO: This application has entered its paused state
+	  alert("Goodnight!");	
 	}
 	
 	function onResume(){
-	  // TODO: This application has resumed from its paused state	
+	  // TODO: This application has resumed from its paused state
+	  alert("And we're back!");	
 	}
 	
 	
@@ -95,6 +96,28 @@
             );
        });
     }
-
+	
+	
+	function geoSuc(data){
+		var geodata = data.coords;
+		console.log("-- setting geodata --");
+		console.log( JSON.stringify(geodata) );
+		localStorage.setItem("geoData", JSON.stringify(geodata) );
+		// Use this to detect if within the store coordinates
+		// and if so, download store database to local storage
+	}
+	
+	function geoErr(data){
+		// alert("Error getting location data");
+	}
+	
+	function lclStorage(){
+		if(localStorage.getItem("LocalData") === null)
+		{
+			var data = [];
+			data = JSON.stringify(data);
+			localStorage.setItem("LocalData", data);
+		}	
+	}
 	
 })();
