@@ -67,12 +67,10 @@
 
 - (BOOL)hasHeadingSupport
 {
-    BOOL headingInstancePropertyAvailable = [self.locationManager respondsToSelector:@selector(headingAvailable)]; // iOS 3.x
+    // BOOL headingInstancePropertyAvailable = [self.locationManager respondsToSelector:@selector(headingAvailable)]; // iOS 3.x
     BOOL headingClassPropertyAvailable = [CLLocationManager respondsToSelector:@selector(headingAvailable)]; // iOS 4.x
 
-    if (headingInstancePropertyAvailable) { // iOS 3.x
-        return [(id)self.locationManager headingAvailable];
-    } else if (headingClassPropertyAvailable) { // iOS 4.x
+    if (headingClassPropertyAvailable) { // iOS 4.x
         return [CLLocationManager headingAvailable];
     } else { // iOS 2.x
         return NO;

@@ -986,7 +986,7 @@ module.exports = function (success, fail, service, action, args) {
         }
     } else {
 
-        console.log("Error: exec proxy not found for :: " + service + " :: " + action);
+        console.log("Cordova Error: exec proxy not found for :: " + service + " :: " + action);
         
         if(typeof fail === "function" ) {
             fail("Missing Command Error");

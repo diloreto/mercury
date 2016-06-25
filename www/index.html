@@ -2,29 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,
-width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="msapplication-tap-highlight" content="no" />
-    <title>My App</title>
-    
-    <!-- Ionicons Styles -->
-    <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css">
+    <title>Mercury 1.0.0</title>
+   
     
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
+    
     <!-- Toast by Timo -->
     <link rel="stylesheet" href="css/toast.css">
- 
-    <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="js/framework7.min.js"></script>
-
-    <!-- Path to Template7 Library JS-->
-    <script type="text/javascript" src="js/Template7/dist/template7.js"></script>
-
-    <!-- Path to your app js-->
-    <script type="text/javascript" src="js/top.js"></script>
+     
   </head>
   <body>
   
@@ -71,7 +61,7 @@ width=device-width, height=device-height, target-densitydpi=device-dpi" />
             <div class="content-block">
                 <div class="row buttons-row">
                   <div class="col-100">
-                  	<a href="#" class="button button-big button-fill color-red"><i class="icon icon-try-ios"></i> Try</a>
+                  	<a href="#" id="btnTry" class="button button-big button-fill color-red"><i class="icon icon-try-ios"></i> Try</a>
                   </div>
                 </div>
                 <br />
@@ -91,7 +81,7 @@ width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <div class="views tabs toolbar-fixed">
     
       <!-- Your main view, should have "view-main" class-->
-      <div class="view tab view-main active" id="tab1">
+      <div class="view view-main tab active" id="tab1">
       
         <!-- Top Navbar-->
         <div class="navbar">
@@ -123,9 +113,9 @@ width=device-width, height=device-height, target-densitydpi=device-dpi" />
               <div class="content-block-title">Scan an Item to Preview</div>
               <div class="content-block" id="divPreviewPane">
               
-                <div class="content-block-inner swiper-container">
+                <div class="content-block-inner">
                 	<div id="divSwiperHld">
-                      <p id="product-image" class="swiper-slide"><img id="itemDisplayImage" src="img/default/white_tshirt.jpg" alt="default shirt"></p>
+                      <p id="product-image"><img id="itemDisplayImage" src="img/default/white_tshirt.jpg" alt="default shirt"></p>
                 	</div>
                 </div>
                                
@@ -147,7 +137,11 @@ width=device-width, height=device-height, target-densitydpi=device-dpi" />
               <div class="content-block" id="blkScanButton">
                 <div class="row">
                   <div class="col-100">
-                  	<a href="#" id="btnScan" class="button button-big button-fill color-green"><i class="icon icon-barcode-ios"></i>  Scan Item</a>
+
+                  	<a href="#" id="btnScan" class="button button-big button-fill color-green">
+                      <i class="icon icon-barcode-ios"></i>  Scan Item
+                    </a>
+
                   </div>
                 </div>
               </div>
@@ -191,11 +185,11 @@ width=device-width, height=device-height, target-densitydpi=device-dpi" />
             <div class="page-content">
             
               <div class="content-block-title">Messages</div>
-              <div class="content-block" id="divPreviewPane">
+              <div class="content-block">
               
-                <div class="content-block-inner swiper-container">
-                	<div id="divSwiperHld">
-                      <p id="product-image"><h2>Messages</h2></p>
+                <div class="content-block-inner">
+                	<div>
+                      <p><h2>Messages</h2></p>
                 	</div>
                 </div>
                                
@@ -811,34 +805,42 @@ width=device-width, height=device-height, target-densitydpi=device-dpi" />
       
     </div> <!-- End of: <div class="views"> -->
    
+      
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+
+    <!-- Path to Template7 Library JS-->
+    <!-- <script type="text/javascript" src="js/Template7/dist/template7.js"></script> -->
+    
    
+    <!-- Path to Toast-->
+    <script type="text/javascript" src="js/toast.js"></script>
+    
+    <!-- Load cordova -->
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/app.js"></script>
+    
 	<script>
       (function () {
         if (Framework7.prototype.device.android) {
               Dom7('head').append(
                   '<link rel="stylesheet" href="css/framework7.material.min.css">' +
                   '<link rel="stylesheet" href="css/framework7.material.colors.min.css">' +
-                  '<link rel="stylesheet" href="css/mercury.material.css">'
+                  '<link rel="stylesheet" href="css/mercury.material.css">' 
               );
           }
           else {
               Dom7('head').append(
                   '<link rel="stylesheet" href="css/framework7.ios.min.css">' +
                   '<link rel="stylesheet" href="css/framework7.ios.colors.min.css">' +
-                  '<link rel="stylesheet" href="css/mercury.ios.css">'
+                  '<link rel="stylesheet" href="css/mercury.ios.css">' +
+                  '<link rel="stylesheet" href="css/ionicons/css/ionicons.min.css">'
               );
           }
       })();
-    </script>   
-   
-   
-    <!-- Path to Toast-->
-    <script type="text/javascript" src="js/toast.js"></script>
-    
-    <!-- Path to your app js-->
-    <script type="text/javascript" src="js/bottom.js"></script>
-    
-    <!-- Load cordova -->
-    <script type="text/javascript" src="cordova.js"></script>
+    </script>
+           
   </body>
 </html>
